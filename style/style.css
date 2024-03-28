@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "titlePolice"; /* Nom de la police */
+    src: url("/font/PonyRides.ttf"); /* Chemin vers le fichier de police */
+  }
+
+header{
+    background-image:url(/img/wallpaper.png);
+    height: 60vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 120px;
+    font-family: "titlePolice", sans-serif; 
+  }
+ 
+  h1 span:nth-child(1) { color: red; }
+  h1 span:nth-child(2) { color: orange; }
+  h1 span:nth-child(3) { color: yellow; }
+  h1 span:nth-child(4) { color: green; }
+  h1 span:nth-child(6) { color: blue; }
+  h1 span:nth-child(7) { color: purple; }
+  h1 span:nth-child(8) { color: plum; }
+  h1 span:nth-child(9) { color: red; }
+  h1 span:nth-child(10) { color: orange; }
+  h1 span:nth-child(11) { color: yellow; }
+  h1 span:nth-child(12) { color: green; }
+  h1 span:nth-child(14) { color: blue; }
+  h1 span:nth-child(15) { color: red; }
+  h1 span:nth-child(16) { color: orange; }
+
+ 
+
+
+
+h4 {
+    font-size: 70px;
+    background: linear-gradient(to right, #FFD700, #32CD32, #1E90FF, #8400ff);
+    background-size: 800px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: "titlePolice", sans-serif; 
+}
+
